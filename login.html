@@ -16,7 +16,7 @@
     <title>Page Title</title>
     <link href="assets/styles/main.css?t=1488795377671" rel="stylesheet">
   </head>
-  <body>
+  <body class="login-page">
     <header>
       <div class="navbar navbar-default navbar-fixed-top nav-bar-top-bg">
         <div class="container-fluid">
@@ -25,19 +25,44 @@
       </div>
     </header>
     <div class="container vertical-center container--main">
-      <div class="col-md-10 col-md-offset-1">
-        <div class="blockquote-box white-bg mb-40">
-          <p>This tool allows you to undertake a survey of your risk and is provided to you by 'THE COMPANY'</p>
-          <p><b>All information is in the strictest confidence</b><br><b>T&C's.... (first time only)</b>
-            <div class="input-group checkbox">
-              <label class="bold"> 
-                <input type="checkbox"><span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>I understand
-              </label>
+      <div class="col-md-12">
+        <div class="text-center"><img src="assets/images/login-logo.png" alt=""></div>
+        <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false">
+          <div class="modal-dialog login">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Login</h4>
+              </div>
+              <form action="#" method="post"> 
+                <div class="modal-body">
+                  <legend></legend>
+                  <div class="form-group">
+                    <div class="col-lg-3 col-md-3">
+                      <label class="col-lg-12 lbl control-label" for="username">Username</label>
+                    </div>
+                    <div class="col-lg-9 col-md-9">
+                      <input class="form-control" id="username" type="text" name="username" placeholder="">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-lg-3 col-md-3">
+                      <label class="col-lg-12 lbl control-label" for="password">Password</label>
+                    </div>
+                    <div class="col-lg-9 col-md-9">
+                      <input class="form-control" id="password" type="password" name="password" placeholder="">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-lg-3 col-md-3"></div>
+                    <div class="col-lg-9 col-md-9">
+                      <input class="btn btn-info btn-full btn-lg btn-login" id="loginbutton" type="submit" value="Login"><span class="log-det">Forgot login details? <a href="#">Please click here</a></span>
+                    </div>
+                  </div>
+                </div>
+              </form>
             </div>
-          </p>
+          </div>
         </div>
-        <div class="blockquote-box white-bg"><b>You start the process by filling in a short risk audit. </b>Once they have been completed you will receive a report of your risk levels, an explanation of those risks and a set of tasks that you will need to undertake to manage them</div>
-        <div class="btn-wrap mt-40 text-center"><a class="btn btn-info btn-lg" href="risk_audit.html">Start Risk Audit</a><a class="btn btn-info btn-lg" href="dashboard.html">Go to Dashboard</a></div>
       </div>
     </div>
     <footer></footer>
