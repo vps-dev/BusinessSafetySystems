@@ -8125,7 +8125,7 @@ input:-moz-placeholder {
   overflow: inherit; 
   margin: 23px auto 0;
 }
-.login-modal.login.modal-dialog {
+.login-modal .modal-dialog {
     position: relative;
     overflow: inherit;
     margin: 0 auto 0;
@@ -8145,17 +8145,6 @@ input:-moz-placeholder {
 
 
 @media (min-width: 769px) and (max-width: 1199px) {
-
-  .login.modal-dialog {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 320px;
-    width: 300px;
-    margin-left: -150px;
-    margin-top: -160px;
-  }
   .login .col-lg-3,
   .login .col-lg-9 {
     padding: 0;
