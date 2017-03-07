@@ -8119,28 +8119,28 @@ input:-moz-placeholder {
   font-weight: 600;
 }
 
-.login-page .modal {
+.login-modal.modal {
   display: block; 
   position: relative; 
   overflow: inherit; 
   margin: 23px auto 0;
 }
-  .login-page .login.modal-dialog {
+.login-modal.login.modal-dialog {
     position: relative;
     overflow: inherit;
     margin: 0 auto 0;
     width: 380px;
     top: auto;
     left: auto;
-  }
-  .login-page  .close {
+}
+.login-modal.close {
     display: none
-  }
+}
 
-  .login-page .nav-bar-top-bg .container,
-  .login-page .relative  {
+.login-page .nav-bar-top-bg .container,
+.login-page .relative  {
     display: none;
-  }
+}
 
 
 
